@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Martel+Sans:wght@200&family=The+Nautigal&display=swap');
+
+/*
+font-family: 'Cinzel Decorative', cursive;
+font-family: 'Martel Sans', sans-serif;
+font-family: 'The Nautigal', cursive;
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    text-align: center;
+    width: 100vw;
+    box-shadow: inset -5px 0px 0px 1px rgb(0 0 0 / 60%);
+    height: 120px; 
+}
+
+header h1 {
+    position: relative;
+    top: 10px;
+    padding: 5px;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+
+
+h2 {
+    font-size: 0.7em;
+    font-family: 'Cinzel Decorative', cursive;
+    text-align: center;
+}
+
+header nav {
+    text-align: left;
+    position: relative;
+    top: 25px;
+}
+
+nav > a {
+    font-size: 20px;
+    margin: 50px;
+    text-decoration: none;
+    color: black;
+
+
+}
+
+nav>a:hover {
+    border: 2px solid #999999(0, 0, 0, 0.89);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.534);
+    transition: transform 2s; 
+    border-radius: 10px 2px;
+}
+
+
+main {
+  color:#999999;
+  text-align: center;
+}
+
+main h1 {
+    position: relative;
+    right: 10px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+main p {
+    font-family: 'Cinzel Decorative', cursive;
+    text-align: center;
+    
+}
+
+.nos {
+    text-align: center;
+}
+
+section {
+    position: relative;
+    width: 100vw;
+    box-shadow: inset 1px 0px 16px 2px rgb(0 0 0 / 53%);
+}
+
+section#tatto img {
+    width: 190px;
+    height: 150px;
+    margin: 20px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.534);
+    box-sizing: border-box;
+}
+
+section#tatto img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.603);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.534);
+    transition: transform 1s;
+    -webkit-filter: grayscale(50%);
+}
+
+section#tatto 
+{
+    text-align: center;
+}
+article img {
+  border-radius: 10px 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.534);
+
+}
+
+article img:hover {
+    -webkit-filter: grayscale(50%);
+}
+
+footer {
+    background-color: #999999be;
+    text-align: center;
+    padding: 1px;
+}
+
+
+footer img {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    margin: 30px;
+}
+
+footer img:hover {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.849);
+    border-radius: 50%;
+}
+
+
