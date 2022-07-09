@@ -15,12 +15,13 @@ font-family: 'The Nautigal', cursive;
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    width: 100vw;
 }
 
 header {
     text-align: center;
     width: 100vw;
-    box-shadow: inset -5px 0px 0px 1px rgb(0 0 0 / 60%);
+    box-shadow: inset 10px 2px 16px 2px rgb(0 0 0 / 53%);
     height: 120px; 
 }
 
@@ -89,7 +90,7 @@ main p {
 section {
     position: relative;
     width: 100vw;
-    box-shadow: inset 1px 0px 16px 2px rgb(0 0 0 / 53%);
+    box-shadow: inset 10px 2px 16px 2px rgb(0 0 0 / 53%)
 }
 
 section#tatto img {
@@ -126,7 +127,8 @@ article img:hover {
 footer {
     background-color: #999999be;
     text-align: center;
-    padding: 1px;
+    padding: 2px;
+    
 }
 
 
